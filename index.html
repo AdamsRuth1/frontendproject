@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code component</title>
     <style>
         body {
             margin: 0;
@@ -35,26 +38,31 @@
             height: auto; /* Maintain aspect ratio */
             border-radius: 10px;
         }
-        section {
+        section p {
             color:rgb(123, 123, 123);
       text-align: center;
       font-size: 25px;
     }
-    section .first-p{
+    section h1{
       text-align: center;
       color: rgb(12, 29, 40);
       font-size: 34px;
     }
     </style>
 </head>
+    
 <body>
-    <div class="main-div">
-        <div class="image-container">
-            <a href="https://twitter.com/unique1Adams"> <img src="image-qr-code.png"></a></div>
-        <section>
-            <p class="first-p">Improve your front-end skills by building projects</p>
-            <p class="second-p">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-        </section>
-    </div>
+    <main role="main">
+        <div class="main-div">
+            <div class="image-container">
+                 <img src="image-qr-code.png" alt="QR code">
+                </div>
+            <section>
+                <h1>Improve your front-end skills by building projects</h1>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </section>
+        </div>
+    </main>
+    
 </body>
 </html>
